@@ -5,6 +5,10 @@
       <Name>A203B31412B59094964FD5528D7CABD6</Name>
       <Value>Project Workspace/First/FunctionLIB.okfl</Value>
     </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>DCB1804C22231429A3778EA89B428BA5</Name>
+      <Value>Project Workspace/SECOND/GDR.okgdr</Value>
+    </ImportSectionDTO>
   </ImportedArtifacts>
   <MetaInformation>
     <DescriptionRTF />
@@ -22,7 +26,9 @@
       <StepInputArgs>
         <FlowStepInputArgument>
           <Name>URL</Name>
-          <DataSource>Default</DataSource>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>DCB1804C22231429A3778EA89B428BA5/Column-3</DR_RelativePath>
         </FlowStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
