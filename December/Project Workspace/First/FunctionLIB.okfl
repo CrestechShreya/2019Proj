@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>A08F520D24A6D82B7A28A4567ABC9E39</Name>
+      <Value>Project Workspace/First/object.okor</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <TestSteps>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Default Browser</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/url</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickLink</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/nykaa - Google Search/www.nykaa.com\nNykaa: Buy</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SelectWindow</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickLink</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa/Skin</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SelectWindow</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/Click</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/Chill Out Bridezilla: So</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/Click</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/POPULARITY</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/Click</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/New Arrivals</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa(1)/SearchInputBox</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">mac eye</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/Click</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa(1)/M.A.C Eyeliner</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SelectWindow</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">1</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/VerifyObjectVisible</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa(1)/OfferBlock</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>True</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/If</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Arg1</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/True</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg2</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">=</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg3</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">True</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg4</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg5</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg6</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg7</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg8</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg9</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg10</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg11</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg12</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg13</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg14</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg15</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg16</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg17</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg18</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Arg19</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickLink</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>A08F520D24A6D82B7A28A4567ABC9E39/Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa(1)/OfferBlock</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/Else</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>SystemKeyword/AddDateTime</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>DateTime</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Years</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Months</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Days</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Hours</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Minutes</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Seconds</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/EndIf</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>SystemKeyword/AddDateTime</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>DateTime</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Years</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Months</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Days</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Hours</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Minutes</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Seconds</Name>
+          <DataSource>StaticValue</DataSource>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+  </TestSteps>
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>URL</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:string">www.nyka.com</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+  </InputParameters>
+  <OutputParameters>
+    <ComponentOutputParameter>
+      <Name>output-parameter-1</Name>
+      <Type>String</Type>
+    </ComponentOutputParameter>
+  </OutputParameters>
+</ComponentSchema>
