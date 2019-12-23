@@ -2,6 +2,10 @@
 <ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ImportedArtifacts>
     <ImportSectionDTO>
+      <Name>2DD8D0DD3A100AFC541698845408ECA3</Name>
+      <Value>Project Workspace/First/func.okfl</Value>
+    </ImportSectionDTO>
+    <ImportSectionDTO>
       <Name>A08F520D24A6D82B7A28A4567ABC9E39</Name>
       <Value>Project Workspace/First/object.okor</Value>
     </ImportSectionDTO>
@@ -36,6 +40,18 @@
       <StepOutputArgs>
         <TestStepOutputArgument />
       </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath />
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs />
+      <Component_RelativePath>2DD8D0DD3A100AFC541698845408ECA3</Component_RelativePath>
     </TestStep>
     <TestStep>
       <ContinueOnError>false</ContinueOnError>
