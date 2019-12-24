@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>C4FA620FB22B586D9443772A7204D8B7</Name>
+      <Value>Project Workspace/Branch/FL_1.okfl</Value>
+    </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>131E9042AD293A1B87DA994F8130C58E</Name>
+      <Value>Project Workspace/Branch/gdr1.okgdr</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>C4FA620FB22B586D9443772A7204D8B7</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>131E9042AD293A1B87DA994F8130C58E/Column-4</DR_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>
