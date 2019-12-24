@@ -19,13 +19,9 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>ValueFromGlobalVariable</DataSource>
-          <GV_RelativePath>GlobalVariables/Browser</GV_RelativePath>
-        </TestStepInputArgument>
-        <TestStepInputArgument>
-          <Name>URL</Name>
-          <DataSource>ValueFromInputParameter</DataSource>
-          <InputParameter_RelativePath>InputArguments/URL</InputParameter_RelativePath>
+
+
+          
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
@@ -100,6 +96,7 @@
         <TestStepOutputArgument />
       </StepOutputArgs>
     </TestStep>
+ Branch_3
     <TestStep>
       <ContinueOnError>true</ContinueOnError>
       <IsNegative>false</IsNegative>
@@ -140,6 +137,7 @@
         <TestStepOutputArgument />
       </StepOutputArgs>
     </TestStep>
+=
   </TestSteps>
   <InputParameters>
     <ComponentInputParameter>
