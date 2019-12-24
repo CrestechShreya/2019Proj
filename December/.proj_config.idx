@@ -1,0 +1,74 @@
+[
+  {
+    "ArtifactPath": "GlobalVariables/Browser",
+    "UsedInArtifactPath": "Project Workspace/Branch/FL_1.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/TEST-CASE.oktc",
+    "UsedInArtifactPath": "Project Workspace/First/SUITE.okst"
+  },
+  {
+    "ArtifactPath": "GlobalVariables/Browser",
+    "UsedInArtifactPath": "Project Workspace/SECOND/TC.oktc"
+  },
+  {
+    "ArtifactPath": "GlobalVariables/url",
+    "UsedInArtifactPath": "Project Workspace/SECOND/TC.oktc"
+  },
+  {
+    "ArtifactPath": "GlobalVariables/Default Browser",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/nykaa - Google Search/www.nykaa.com\\nNykaa: Buy",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa/Skin",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/Chill Out Bridezilla: So",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/POPULARITY",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa/New Arrivals",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa(1)/SearchInputBox",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Skin Care Products – Buy Best Skin Care Products Online in India | Nykaa(1)/M.A.C Eyeliner",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/object.okor/Buy Cosmetics Products &amp; Beauty Products Online in India at Best Price | Nykaa(1)/OfferBlock",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/func.okfl",
+    "UsedInArtifactPath": "Project Workspace/First/FunctionLIB.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace/Branch/FL_1.okfl",
+    "UsedInArtifactPath": "Project Workspace/Branch/testcase1.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace/Branch/gdr1.okgdr/Column-4",
+    "UsedInArtifactPath": "Project Workspace/Branch/testcase1.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace/First/FunctionLIB.okfl",
+    "UsedInArtifactPath": "Project Workspace/First/TEST-CASE.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace/SECOND/GDR.okgdr/Column-3",
+    "UsedInArtifactPath": "Project Workspace/First/TEST-CASE.oktc"
+  }
+]

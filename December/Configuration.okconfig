@@ -1,4 +1,33 @@
 <?xml version="1.0"?>
 <ProjectConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Agents />
+  <Agents>
+    <Agent>
+      <AgentID>ae26c117-b252-4986-9a5c-a869d440b293</AgentID>
+      <Name>1</Name>
+      <CommProtocol>RestAPI_Service</CommProtocol>
+      <AgentServerURL>http://localhost:52472</AgentServerURL>
+      <Comment>Describe here...</Comment>
+    </Agent>
+    <Agent>
+      <AgentID>df44dade-0483-4ba0-855a-aefc2075c2fa</AgentID>
+      <Name>2</Name>
+      <CommProtocol>RestAPI_Service</CommProtocol>
+      <AgentServerURL>http://localhost:52472</AgentServerURL>
+      <Comment>Describe here...</Comment>
+    </Agent>
+    <Agent>
+      <AgentID>018b4c77-92cb-463e-adaa-ef1176d20bc9</AgentID>
+      <Name>4</Name>
+      <CommProtocol>RestAPI_Service</CommProtocol>
+      <AgentServerURL>http://localhost:52472</AgentServerURL>
+      <Comment>Describe here...</Comment>
+    </Agent>
+    <Agent>
+      <AgentID>5a8c969f-1b79-4cb0-a86d-594560a30c1b</AgentID>
+      <Name>5</Name>
+      <CommProtocol>RestAPI_Service</CommProtocol>
+      <AgentServerURL>http://localhost:52472</AgentServerURL>
+      <Comment>Describe here...</Comment>
+    </Agent>
+  </Agents>
 </ProjectConfiguration>
